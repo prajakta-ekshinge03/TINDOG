@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem ;
+    font-weight: 700;
+    color: black;
+    
+}
+
+p{
+    color: #8f8f8f;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem ;
+    font-weight: 700;
+    line-height: 1.5;
+}
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem   ;
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.download-buttons{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%
+}
+
+#features{
+    padding: 7% 15% ;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5% ;
+}
+.icon{
+    color: #ef8172;
+   margin-bottom: 1rem;
+}
+.icon:hover{
+    color:  #ff4c68;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+.h2-pricing{
+    color: #ff4c68;
+}
+.h2-pricing-p{
+    color:   #ef8172;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px ){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3% 15%;
+}
+.cta{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+}
+#footer{
+    background-color:  #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.heart{
+    color: red;
+}
+.name{
+    color: #ff4c68;
+}
+.emoji{
+
+    padding: 7px 10px
+}
